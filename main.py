@@ -1,5 +1,5 @@
-txt = "I could eat bananas all day, bananas are my favorite fruit"
+txt = "apple, banana, cherry"
 
-x = txt.rpartition("bananas")
+x = txt.rsplit(", ")
 
 print(x)
