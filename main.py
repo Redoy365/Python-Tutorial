@@ -1,5 +1,5 @@
-txt = "     banana     "
+txt = "Hello Sam!"
 
-x = txt.rstrip()
+x = str.maketrans("S", "P")
 
-print("of all fruits", x, "is my favorite")
+print(txt.translate(x))
