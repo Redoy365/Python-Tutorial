@@ -1,5 +1,5 @@
 txt = "     banana     "
 
-x = txt.strip()
+x = txt.lstrip()
 
 print("of all fruits", x, "is my favorite")
