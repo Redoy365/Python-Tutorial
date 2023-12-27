@@ -1,5 +1,3 @@
-txt = "Welcome to my world"
-
-x = txt.title()
-
-print(x)
+mydict = {83:  80}
+txt = "Hello Sam!"
+print(txt.translate(mydict))
