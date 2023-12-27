@@ -33,4 +33,4 @@
 
 <hr>
 
-  <h3 align="center">Python - String Methods</h2>
+  <h3 align="center">Python - Lists</h2>
