@@ -1,5 +1,5 @@
-txt = "Hello Sam!"
+txt = "I could eat bananas all day"
 
-x = str.maketrans("S", "P")
+x = txt.partition("bananas")
 
-print(txt.translate(x))
+print(x)
