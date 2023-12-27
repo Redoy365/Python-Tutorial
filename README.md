@@ -2,7 +2,6 @@
   <img width="140" src="https://user-images.githubusercontent.com/6661165/91657958-61b4fd00-eb00-11ea-9def-dc7ef5367e34.png" />
   <h2 align="center">Python programming</h2>
   <p align="center">🏆 Learn Python programming language Step-by-step</p>
-</p>
 <p align="center">
   <a href="https://github.com/Redoy365?tab=repositories">
     <img src="https://img.shields.io/github/issues/ryo-ma/github-profile-trophy"/>
@@ -31,4 +30,34 @@
     <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4"/>
   </a>
 </p>
+
+<hr>
+
+<pre>
+<span style="color:#C7FF7F">local variable</span>
+x = "awesome"
+
+def myfunc():
+    x = "fantastic"
+    print("Python is "+x)
+
+myfunc()
+
+print("python is "+x)
+
+<span style="color:#C7FF7F">global variable</span>
+
+x = "awesome"
+print("Python is "+x)
+
+def myfunc():
+    global x
+    x = "fantastic"
+
+myfunc()
+
+print("Python is "+x)
+
+</pre>
+
 

@@ -1,9 +1,11 @@
+
 x = "awesome"
+print("Python is "+x)
 
 def myfunc():
+    global x
     x = "fantastic"
-    print("Python is "+x)
 
 myfunc()
 
-print("python is "+x)
+print("Python is "+x)
