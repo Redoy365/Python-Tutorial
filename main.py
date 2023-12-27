@@ -1,3 +1,3 @@
-txt = "The best things in life are free!"
-if "expensive" not in txt:
-  print("No, 'expensive' is NOT present.")
+age = 24
+txt = "My name is Redoy, and I am {} year's old."
+print(txt.format(age))
