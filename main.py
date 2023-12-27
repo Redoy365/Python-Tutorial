@@ -1,8 +1,9 @@
-a = ""
-b = " "
+a = "HELLO, AND WELCOME TO MY WORLD"
+b = "Hello"
+c = "22 Names"
+d = "This Is %'!?"
 
-x = a.isspace()
-y = b.isspace()
-
-print(x)
-print(y)
+print(a.istitle())
+print(b.istitle())
+print(c.istitle())
+print(d.istitle())
