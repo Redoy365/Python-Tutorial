@@ -1,13 +1,5 @@
-myDict = {"name": "John", "country": "Norway"}
-mySeparator = "TEST"
+txt = "banana"
 
-x = mySeparator.join(myDict)
+x = txt.ljust(20)
 
-print(x)
-
-
-x = "Hello"
-
-y = "/".join(x)
-
-print(y)
+print(x, "is my favorite fruit.")
