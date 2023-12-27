@@ -1,3 +1,5 @@
-x = "hello world !"
+txt = "Hello, And Welcome To My World!"
 
-print(x.capitalize())
+x = txt.casefold()
+
+print(x)
