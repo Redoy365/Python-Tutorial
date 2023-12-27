@@ -1,5 +1,6 @@
-x = "Python "
-y = "is "
-z = "awesome"
+x = "awesome"
 
-print(x+y+z)
+def myfunc():
+    print("Python is "+x)
+
+myfunc()
