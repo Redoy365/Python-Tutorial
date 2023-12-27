@@ -1,7 +1,8 @@
-txt = "Hello, welcome to my world."
+txt = "For only {price:.2f} dollars!"
+print(txt.format(price = 49))
 
-x = txt.find("welcome")
+txt = "We have {:>8} chickens."
+print(txt.format(49))
 
-print(x)
-
-# Output : 7
+txt = "We have {:<8} chickens."
+print(txt.format(49))
