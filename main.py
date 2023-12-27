@@ -1,5 +1,5 @@
-txt = "CompanyX"
+txt = "Company123"
 
-x = txt.isalpha()
+x = txt.isascii()
 
 print(x)
