@@ -33,31 +33,4 @@
 
 <hr>
 
-<pre>
-<span style="color:#C7FF7F">local variable</span>
-x = "awesome"
-
-def myfunc():
-    x = "fantastic"
-    print("Python is "+x)
-
-myfunc()
-
-print("python is "+x)
-
-<span style="color:#C7FF7F">global variable</span>
-
-x = "awesome"
-print("Python is "+x)
-
-def myfunc():
-    global x
-    x = "fantastic"
-
-myfunc()
-
-print("Python is "+x)
-
-</pre>
-
-
+  <h3 align="center">Python - String Methods</h2>
