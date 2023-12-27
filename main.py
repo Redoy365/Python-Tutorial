@@ -1,5 +1,7 @@
-txt = "Hello, And Welcome To My World!"
+txt = "banana"
 
-x = txt.casefold()
+x = txt
+y = txt.center(20)
 
 print(x)
+print(y)
