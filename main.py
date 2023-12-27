@@ -1,7 +1,5 @@
-txt = "banana"
+txt = "I love apples, apple are my favorite fruit"
 
-x = txt
-y = txt.center(50, "_")
+x = txt.count("apple")
 
 print(x)
-print(y)
