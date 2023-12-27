@@ -1,9 +1,7 @@
-a = "MyFolder"
-b = "Demo002"
-c = "2bring"
-d = "my demo"
+a = "Hello world!"
+b = "hello 123"
+c = "mynameisPeter"
 
-print(a.isidentifier())
-print(b.isidentifier())
-print(c.isidentifier())
-print(d.isidentifier())
+print(a.islower())
+print(b.islower())
+print(c.islower())
