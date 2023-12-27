@@ -1,3 +1,3 @@
-print(10 > 9)
-print(10 == 9)
-print(10 < 9)
+print(bool("abc"))
+print(bool(123))
+print(bool(["apple", "cherry", "banana"]))
