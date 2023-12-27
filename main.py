@@ -1,8 +1,5 @@
-txt = "For only {price:.2f} dollars!"
-print(txt.format(price = 49))
+txt = "Company12"
 
-txt = "We have {:>8} chickens."
-print(txt.format(49))
+x = txt.isalnum()
 
-txt = "We have {:<8} chickens."
-print(txt.format(49))
+print(x)
