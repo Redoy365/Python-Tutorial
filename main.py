@@ -1,5 +1,7 @@
-txt = "H\te\tl\tl\to"
+txt = "Hello, welcome to my world."
 
-x =  txt.expandtabs(4)
+x = txt.find("welcome")
 
 print(x)
+
+# Output : 7
