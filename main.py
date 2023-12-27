@@ -1,7 +1,5 @@
-a = "Hello world!"
-b = "hello 123"
-c = "mynameisPeter"
+txt = "565543"
 
-print(a.islower())
-print(b.islower())
-print(c.islower())
+x = txt.isnumeric()
+
+print(x)
