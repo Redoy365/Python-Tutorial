@@ -1,5 +1,5 @@
-txt = "Hello My Name Is PETER"
+txt = "Welcome to my world"
 
-x = txt.swapcase()
+x = txt.title()
 
 print(x)
