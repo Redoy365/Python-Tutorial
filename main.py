@@ -1,5 +1,8 @@
-txt = "565543"
+txt1 = "Hello! Are you #1?"
+txt2 = "Hello!\nAre you #1?"
 
-x = txt.isnumeric()
+x1 = txt1.isprintable()
+x2 = txt2.isprintable()
 
-print(x)
+print(x1)
+print(x2)
