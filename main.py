@@ -1,5 +1,7 @@
-txt = "I like bananas"
+txt = "Mi casa, su casa."
 
-x = txt.replace("bananas", "apples")
+x = txt.rfind("casa")
+y = txt.find("casa")
 
 print(x)
+print(y)
