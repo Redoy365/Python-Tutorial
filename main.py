@@ -1,5 +1,3 @@
-x = "Hello World !"
-
-for i in range(len(x)):
-    print(x[i], end="")
-
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
