@@ -1,7 +1,5 @@
-txt = "Mi casa, su casa."
+txt = "I could eat bananas all day, bananas are my favorite fruit"
 
-x = txt.rindex("casa")
-y = txt.index("casa")
+x = txt.rpartition("bananas")
 
 print(x)
-print(y)
