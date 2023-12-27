@@ -1,5 +1,5 @@
-txt = "Hello my FRIENDS"
+txt = "     banana     "
 
-x = txt.lower()
+x = txt.strip()
 
-print(x)
+print("of all fruits", x, "is my favorite")
