@@ -1,5 +1,5 @@
-txt = "welcome to the jungle"
+txt = "Thank you for the music\nWelcome to the jungle"
 
-x = txt.split()
+x = txt.splitlines()
 
 print(x)
