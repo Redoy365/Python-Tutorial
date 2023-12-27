@@ -1,5 +1,5 @@
-txt = "Company123"
+txt = "1234"
 
-x = txt.isascii()
+x = txt.isdecimal()
 
 print(x)
