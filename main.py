@@ -1,3 +1,9 @@
-mydict = {83:  80}
-txt = "Hello Sam!"
-print(txt.translate(mydict))
+txt = "50"
+
+x = txt.zfill(10)
+y = txt.zfill(20)
+z = txt.zfill(30)
+
+print(x)
+print(y)
+print(z)
