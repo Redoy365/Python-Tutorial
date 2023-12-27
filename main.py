@@ -1,9 +1,7 @@
-a = "HELLO, AND WELCOME TO MY WORLD"
-b = "Hello"
-c = "22 Names"
-d = "This Is %'!?"
+a = "Hello World!"
+b = "hello 123"
+c = "MY NAME IS PETER"
 
-print(a.istitle())
-print(b.istitle())
-print(c.istitle())
-print(d.istitle())
+print(a.isupper())
+print(b.isupper())
+print(c.isupper())
