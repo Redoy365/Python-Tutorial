@@ -1,5 +1,9 @@
-txt = "50800"
+a = "MyFolder"
+b = "Demo002"
+c = "2bring"
+d = "my demo"
 
-x = txt.isdigit()
-
-print(x)
+print(a.isidentifier())
+print(b.isidentifier())
+print(c.isidentifier())
+print(d.isidentifier())
