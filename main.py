@@ -1,5 +1,5 @@
-txt = "1234"
+txt = "50800"
 
-x = txt.isdecimal()
+x = txt.isdigit()
 
 print(x)
