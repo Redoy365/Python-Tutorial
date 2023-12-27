@@ -34,3 +34,5 @@
 <hr>
 
   <h3 align="center">Python - Lists</h2>
+
+<img src= "https://www.aipython.in/wp-content/uploads/2020/04/Python-operators-1024x576.jpg">
