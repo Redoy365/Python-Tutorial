@@ -1,5 +1,5 @@
-txt = "Hello, welcome to my world."
+txt = "Hello My Name Is PETER"
 
-x = txt.startswith("Hello")
+x = txt.swapcase()
 
 print(x)
