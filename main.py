@@ -1,5 +1,5 @@
-txt = "I could eat bananas all day"
+txt = "I like bananas"
 
-x = txt.partition("bananas")
+x = txt.replace("bananas", "apples")
 
 print(x)
