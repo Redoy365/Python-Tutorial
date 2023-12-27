@@ -1,5 +1,5 @@
-txt = "banana"
+txt = "Hello my FRIENDS"
 
-x = txt.ljust(20)
+x = txt.lower()
 
-print(x, "is my favorite fruit.")
+print(x)
