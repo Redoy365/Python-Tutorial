@@ -1,12 +1,5 @@
-txt1 = "Hello, welcome to my world."
-txt2 = "Hello, welcome to my world!"
-txt3 = "Hello, welcome to my world?"
+txt = "H\te\tl\tl\to"
 
-x = txt1.endswith(".")
-y = txt2.endswith(".")
-z = txt3.endswith(".")
+x =  txt.expandtabs(4)
 
 print(x)
-print(y)
-print(z)
-
