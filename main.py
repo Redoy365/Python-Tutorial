@@ -1,7 +1,13 @@
-a = "Hello World!"
-b = "hello 123"
-c = "MY NAME IS PETER"
+myDict = {"name": "John", "country": "Norway"}
+mySeparator = "TEST"
 
-print(a.isupper())
-print(b.isupper())
-print(c.isupper())
+x = mySeparator.join(myDict)
+
+print(x)
+
+
+x = "Hello"
+
+y = "/".join(x)
+
+print(y)
