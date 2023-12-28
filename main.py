@@ -1,8 +1,5 @@
-def myfunc(n):
-  return lambda a : a * n
+fruits = ['apple', 'banana', 'cherry']
 
-mydoubler = myfunc(2)
-mytripler = myfunc(3)
+fruits.append("orange")
 
-print(mydoubler(11))
-print(mytripler(11))
+print(fruits)
