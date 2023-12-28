@@ -1,5 +1,7 @@
-points = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+fruits = ['apple', 'banana', 'cherry']
 
-x = points.count(9)
+cars = ['Ford', 'BMW', 'Volvo']
 
-print(x)
+fruits.extend(cars)
+
+print(fruits)
