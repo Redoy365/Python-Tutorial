@@ -1,6 +1,5 @@
-adj = ["red", "big", "tasty"]
-fruits = ["apple", "banana", "cherry"]
+def my_function():
+  print("Hello from a function")
 
-for x in adj:
-  for y in fruits:
-    print(x, y)
+
+my_function()
