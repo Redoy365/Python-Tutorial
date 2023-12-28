@@ -1,5 +1,5 @@
-a = ["apple", "banana", "cherry"]
-b = ["Ford", "BMW", "Volvo"]
-a.append(b)
+fruits = ['apple', 'banana', 'cherry', 'orange']
 
-print(a)
+fruits.clear()
+
+print(fruits)
