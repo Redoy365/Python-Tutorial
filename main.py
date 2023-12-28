@@ -1,7 +1,5 @@
 fruits = ['apple', 'banana', 'cherry']
 
-x = fruits.index("apple")
-y = fruits.index("cherry")
+fruits.insert(1, "orange")
 
-print(x)
-print(y)
+print(fruits)
