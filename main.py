@@ -1,9 +1,8 @@
-fruits = ['apple', 'banana', 'cherry']
+cars = ['Ford', 'BMW', 'Volvo']
+num = [2,5,1,6,3,7]
 
-num = [1,2,3,4,5,6]
+cars.sort()
+num.sort()
 
-fruits.reverse()
-num.reverse()
-
-print(fruits)
+print(cars)
 print(num)
