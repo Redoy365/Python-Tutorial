@@ -1,21 +1,15 @@
-class MyNumbers:
-  def __iter__(self):
-    self.a = 1
-    return self
+class MyIterator:
+    def __init__(self, data):
+        self.data = data
 
-  def __next__(self):
-    x = self.a
-    self.a += 1
-    return x
+    def __iter__(self):
+        for item in self.data:
+            yield item
 
-myclass = MyNumbers()
-myiter = iter(myclass)
 
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
+# Example usage:
+my_list = [1, 2, 3, 4, 5]
+my_iterator = MyIterator(my_list)
+
+for item in my_iterator:
+    print(item)
