@@ -1,6 +1,9 @@
-mytuple = ("apple", "banana", "cherry")
-myit = iter(mytuple)
+mystr = "banana"
+myit = iter(mystr)
 
+print(next(myit))
+print(next(myit))
+print(next(myit))
 print(next(myit))
 print(next(myit))
 print(next(myit))
