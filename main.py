@@ -1,7 +1,7 @@
 fruits = ['apple', 'banana', 'cherry']
 
-cars = ['Ford', 'BMW', 'Volvo']
+x = fruits.index("apple")
+y = fruits.index("cherry")
 
-fruits.extend(cars)
-
-print(fruits)
+print(x)
+print(y)
