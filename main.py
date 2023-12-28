@@ -1,8 +1,5 @@
-# Python Arbitrary Arguments
-def my_function(*kids):
+# Python Keyword Arguments
+def my_function(child3, child2, child1):
+  print("The youngest child is " + child3)
 
-  print("The youngest child is " + kids[0])
-  print("The youngest child is " + kids[1])
-  print("The youngest child is " + kids[2])
-
-my_function("Emil", "Tobias", "Linus")
+my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
