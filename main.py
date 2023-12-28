@@ -1,12 +1,3 @@
-def counter():
-    count = 1
-    while True:
-        yield count
-        count += 1
+x = "Hello World!"
 
-
-# Example usage:
-counter_gen = counter()
-
-for _ in range(5):
-    print(next(counter_gen))
+print(len(x))
