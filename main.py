@@ -1,5 +1,5 @@
 fruits = ['apple', 'banana', 'cherry']
 
-fruits.pop(1)
+fruits.remove("banana")
 
 print(fruits)
