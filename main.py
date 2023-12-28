@@ -1,5 +1,5 @@
 fruits = ['apple', 'banana', 'cherry']
 
-fruits.insert(1, "orange")
+fruits.pop(1)
 
 print(fruits)
