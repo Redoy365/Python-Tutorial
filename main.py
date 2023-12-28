@@ -1,6 +1,8 @@
+x = 300
+
 def myfunc():
   global x
-  x = 300
+  x = 200
 
 myfunc()
 
