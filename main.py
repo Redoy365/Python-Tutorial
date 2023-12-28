@@ -1,10 +1,6 @@
-class Person:
-  def __init__(mysillyobject, name, age):
-    mysillyobject.name = name
-    mysillyobject.age = age
+mytuple = ("apple", "banana", "cherry")
+myit = iter(mytuple)
 
-  def myfunc(maxRedoy):
-    print("Hello, my name is " + maxRedoy.name)
-
-p1 = Person("Redoy", 36)
-p1.myfunc()
+print(next(myit))
+print(next(myit))
+print(next(myit))
