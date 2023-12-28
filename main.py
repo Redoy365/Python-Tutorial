@@ -1,4 +1,8 @@
-def my_function(fname, lname):
-  print(fname + " " + lname)
+# Python Arbitrary Arguments
+def my_function(*kids):
 
-my_function("Emil", "Refsnes")
+  print("The youngest child is " + kids[0])
+  print("The youngest child is " + kids[1])
+  print("The youngest child is " + kids[2])
+
+my_function("Emil", "Tobias", "Linus")
