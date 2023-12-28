@@ -1,12 +1,9 @@
-# A function that returns the 'year' value:
+# A function that returns the length of the value:
 def myFunc(e):
-  return e['year']
+  return len(e)
 
-cars = [
-  {'car': 'Ford', 'year': 2005},
-  {'car': 'Mitsubishi', 'year': 2000},
-  {'car': 'BMW', 'year': 2019},
-  {'car': 'VW', 'year': 2011}
-]
+cars = ['Ford', 'Mitsubishi', 'BMW', 'VW']
 
-cars.sort(key=myFunc)
+cars.sort(reverse=True, key=myFunc)
+
+print(myFunc(cars))
