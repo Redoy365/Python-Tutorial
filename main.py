@@ -1,3 +1,3 @@
-x = "Hello World!"
+mytuple = ("apple", "banana", "cherry")
 
-print(len(x))
+print(len(mytuple))
