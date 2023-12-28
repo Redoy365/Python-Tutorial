@@ -1,9 +1,4 @@
-mystr = "banana"
-myit = iter(mystr)
+mytuple = ("apple", "banana", "cherry")
 
-print(next(myit))
-print(next(myit))
-print(next(myit))
-print(next(myit))
-print(next(myit))
-print(next(myit))
+for x in mytuple:
+  print(x)
