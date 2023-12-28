@@ -1,13 +1,12 @@
-def my_generator():
-    yield 1
-    yield 2
-    yield 3
-    yield 4
-    yield 5
+def counter():
+    count = 1
+    while True:
+        yield count
+        count += 1
 
 
 # Example usage:
-gen = my_generator()
+counter_gen = counter()
 
-for value in gen:
-    print(value)
+for _ in range(5):
+    print(next(counter_gen))
