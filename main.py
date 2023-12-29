@@ -1,7 +1,4 @@
-x = divmod(5, 2)
-y = divmod(6, 2)
-z = divmod(7, 2)
+x = ('apple', 'banana', 'cherry')
+y = enumerate(x)
 
-print(x)
 print(y)
-print(z)
