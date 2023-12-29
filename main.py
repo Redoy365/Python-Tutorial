@@ -1,4 +1,5 @@
 x = ('apple', 'banana', 'cherry')
-y = enumerate(x)
 
-print(y)
+for index,fruit in enumerate(x, start=1):
+    print(f"Index {index}: {fruit}")
+
