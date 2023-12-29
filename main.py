@@ -1,2 +1,10 @@
-x = compile('print(55)\nprint(88)', 'test', 'exec')
-exec(x)
+class Person:
+  name = "John"
+  age = 36
+  country = "Norway"
+
+print(dir(Person))
+
+delattr(Person, 'age')
+
+print(dir(Person))
