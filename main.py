@@ -1,5 +1,2 @@
-x = '55'
-y = '44'
-
-eval(x)
-print(eval(y)+eval(x))
+x = 'name = "John"\nprint(name)'
+exec(x)
