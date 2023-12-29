@@ -1,7 +1,9 @@
-x = bytes(1)
-y = bytes(2)
-z = bytes(3)
+m = 10
 
-print(x)
-print(y)
-print(z)
+
+def x():
+  a = 5
+
+print(callable(m))
+
+print(callable(x))
