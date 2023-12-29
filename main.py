@@ -1,11 +1,6 @@
 import re
 
-pattern = r"colour"
-text = "My favorite colour is Red."
+txt = "The rain in Spain"
+x = re.search("^The.*Spain$", txt)
 
-match = re.search(pattern, text)
-
-if match:
-    print(match.start())
-    print(match.end())
-    print(match.span())
+print(x)
