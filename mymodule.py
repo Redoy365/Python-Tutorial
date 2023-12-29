@@ -1,12 +1,9 @@
-def sum(x,y):
+x = 5
+
+def func(x,y):
     return x+y
 
-def sub(x,y):
-    return x-y
 
-def mul(x,y):
-    return x*y
-
-def div(x,y):
-    return x/y
-
+class man:
+    def __init__(self):
+        pass
