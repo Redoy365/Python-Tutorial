@@ -1,6 +1,6 @@
-x = bool(0)
-y = bool(1)
-z = bool(2)
+x = bytearray(1)
+y = bytearray(2)
+z = bytearray(3)
 
 print(x)
 print(y)
