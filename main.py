@@ -1,5 +1,5 @@
-x = ('apple', 'banana', 'cherry')
+x = '55'
+y = '44'
 
-for index,fruit in enumerate(x, start=1):
-    print(f"Index {index}: {fruit}")
-
+eval(x)
+print(eval(y)+eval(x))
