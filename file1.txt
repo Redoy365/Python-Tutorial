@@ -1,1 +1,2 @@
 some text added
+Now the file has more content!
