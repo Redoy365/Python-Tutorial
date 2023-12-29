@@ -1,11 +1,5 @@
-x1 = bin(1)
-x2 = bin(2)
-x3 = bin(3)
-x4 = bin(4)
-x5 = bin(5)
+x = bin(5)
 
-print(x1)
-print(x2)
-print(x3)
-print(x4)
-print(x5)
+y = int(x.replace("0b",""))
+
+print(y)
