@@ -1,3 +1,5 @@
-x = chr(97)
+def func():
+  for i in range(127):
+    print(i," = ",chr(i))
 
-print(x)
+func()
