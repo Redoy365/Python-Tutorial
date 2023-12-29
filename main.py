@@ -1,5 +1,7 @@
-x = bin(5)
+x = bool(0)
+y = bool(1)
+z = bool(2)
 
-y = int(x.replace("0b",""))
-
+print(x)
 print(y)
+print(z)
