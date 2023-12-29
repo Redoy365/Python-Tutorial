@@ -1,11 +1,7 @@
-import datetime
+x = min(5, 10, 25)
+y = max(5, 10, 25)
+z = sum([5, 10, 25])
 
-x = datetime.datetime.now()
-
-print(x.microsecond)
-print(x.second)
-print(x.minute)
-print(x.hour)
-print(x.day)
-print(x.month)
-print(x.year)
+print(x)
+print(y)
+print(z)
