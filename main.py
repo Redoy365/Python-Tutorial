@@ -1,16 +1,11 @@
-import json
+import re
 
-x = {
-  "name": "John",
-  "age": 30,
-  "married": True,
-  "divorced": False,
-  "children": ("Ann","Billy"),
-  "pets": None,
-  "cars": [
-    {"model": "BMW 230", "mpg": 27.5},
-    {"model": "Ford Edge", "mpg": 24.1}
-  ]
-}
+pattern = r"colour"
+text = "My favorite colour is Red."
 
-print(json.dumps(x))
+match = re.search(pattern, text)
+
+if match:
+    print(match.start())
+    print(match.end())
+    print(match.span())
