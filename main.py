@@ -1,4 +1,3 @@
-f = open("C:\\Users\\RealTime\\Desktop\\Python Test\\file1.txt", "r")
-
-print(f.read())
-
+f = open("file1.txt", "r")
+for x in f:
+  print(x)
