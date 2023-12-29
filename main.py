@@ -3,6 +3,6 @@ class Person:
   age = 36
   country = "Norway"
 
-x = getattr(Person, 'country')
+x = getattr(Person, 'page', 'my message')
 
 print(x)
