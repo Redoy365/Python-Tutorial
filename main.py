@@ -1,7 +1,5 @@
-x = min(5, 10, 25)
-y = max(5, 10, 25)
-z = sum([5, 10, 25])
+x = abs(-7.25)
+y = pow(2,4)
 
 print(x)
 print(y)
-print(z)
