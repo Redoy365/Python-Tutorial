@@ -1,7 +1,10 @@
-import math
+import json
 
-x = math.ceil(1.4)
-y = math.floor(1.6)
+# some JSON:
+x =  '{ "name":"John", "age":30, "city":"New York"}'
 
-print(x) # returns 2
-print(y) # returns 1
+# parse x:
+y = json.loads(x)
+
+# the result is a Python dictionary:
+print(y["age"])
