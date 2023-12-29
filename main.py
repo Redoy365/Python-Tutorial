@@ -1,10 +1,7 @@
 import math
 
-PI = math.pi
-raian = PI/180
+x = math.ceil(1.4)
+y = math.floor(1.6)
 
-print(math.sin(raian*90))
-print(math.cos(raian*0))
-print(math.tan(raian*45))
-
-
+print(x) # returns 2
+print(y) # returns 1
