@@ -1,7 +1,9 @@
-x = abs(-7.25)
-y = abs(3+5j)
-z = abs(3+6j)
-
+mylist = [True, True, False]
+x = all(mylist)
 print(x)
-print(y)
-print(z)
+
+mylist = [True, True, False]
+x = any(mylist)
+print(x)
+
+
