@@ -1,5 +1,7 @@
-import os
-os.mkdir("hello")
+x = abs(-7.25)
+y = abs(3+5j)
+z = abs(3+6j)
 
-if os.path.exists("hello"):
-    os.rmdir("hello")
+print(x)
+print(y)
+print(z)
