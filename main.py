@@ -1,9 +1,5 @@
-import mymodule
+import mymodule as md
 
-max = mymodule.x
-
-print(max)
-
-x = mymodule.func(5,8)
+x = md.person1['country']
 
 print(x)
