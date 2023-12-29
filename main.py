@@ -1,9 +1,3 @@
-mylist = [True, True, False]
-x = all(mylist)
+x = bin(15)
+
 print(x)
-
-mylist = [True, True, False]
-x = any(mylist)
-print(x)
-
-
