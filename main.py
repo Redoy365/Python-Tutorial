@@ -1,5 +1,10 @@
-x = abs(-7.25)
-y = pow(2,4)
+import math
 
-print(x)
-print(y)
+PI = math.pi
+raian = PI/180
+
+print(math.sin(raian*90))
+print(math.cos(raian*0))
+print(math.tan(raian*45))
+
+
