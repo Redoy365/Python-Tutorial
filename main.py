@@ -1,2 +1,3 @@
-x = 'name = "John"\nprint(name)'
-exec(x)
+x = float("3.500")
+
+print(x)
