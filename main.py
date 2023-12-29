@@ -1,5 +1,2 @@
-def func():
-  for i in range(127):
-    print(i," = ",chr(i))
-
-func()
+x = compile('print(55)\nprint(88)', 'test', 'exec')
+exec(x)
