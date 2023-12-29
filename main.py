@@ -1,8 +1,9 @@
-f = open("file1.txt", "a")
-f.write("\nNow the file has more content!")
+f = open("myfile.txt", "x")
 f.close()
 
-f = open("file1.txt", "r")
+f = open("myfile.txt", "w")
+f.write("Hello World!")
+f.close()
+
+f = open("myfile.txt", 'r')
 print(f.read())
-f.close()
-
