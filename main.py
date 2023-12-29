@@ -1,6 +1,11 @@
 try:
-  print(x)
+  f = open("file1.txt")
+  try:
+    f.write("Lorum Ipsum")
+  except:
+    print("Something went wrong when writing to the file")
+  finally:
+    f.close()
 except:
-  print("Something went wrong")
-finally:
-  print("The 'try except' is finished")
+  print("Something went wrong when opening the file")
+
