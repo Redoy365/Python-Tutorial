@@ -5,6 +5,6 @@ class Person:
 
 print(dir(Person))
 
-delattr(Person, 'age')
+setattr(Person, 'GPA', 5.00)
 
 print(dir(Person))
