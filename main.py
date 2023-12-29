@@ -1,5 +1,5 @@
 import re
 
 txt = "The rain in Spain"
-x = re.findall("ai", txt)
+x = re.split("\s", txt)
 print(x)
