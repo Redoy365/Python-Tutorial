@@ -1,5 +1,4 @@
-x = format(255, 'x') # hexadecimal value
-y = format(255, 'b') # binary value
+mylist = ['apple', 'banana', 'cherry']
+x = frozenset(mylist)
 
 print(x)
-print(y)
