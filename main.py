@@ -1,9 +1,8 @@
-m = 10
+class Person:
+  name = "John"
+  age = 36
+  country = "Norway"
 
+x = getattr(Person, 'country')
 
-def x():
-  a = 5
-
-print(callable(m))
-
-print(callable(x))
+print(x)
