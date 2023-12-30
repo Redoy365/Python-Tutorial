@@ -1,6 +1,9 @@
-a = ("John", "Charles", "Mike")
-b = ("Jenny", "Christy", "Monica")
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
 
-x = zip(a, b)
+car.clear()
 
-print(list(x))
+print(car)
