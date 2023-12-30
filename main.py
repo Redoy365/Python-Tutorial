@@ -1,5 +1,4 @@
-def func(n):
-    for i in range(0,n):
-        print(hex(i))
+x = ('apple', 'banana', 'cherry')
+y = id(x)
 
-func(255)
+print(y)
