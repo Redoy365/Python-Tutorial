@@ -4,6 +4,6 @@ car = {
   "year": 1964
 }
 
-car.popitem()
+x = car.popitem()
 
-print(car)
+print(x)
