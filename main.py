@@ -1,3 +1,7 @@
-import calendar as c
+x = 10
 
-print(c.month_name[1])
+try:
+    assert x > 5
+    print("x > 5")
+except AssertionError:
+    print("ok")
