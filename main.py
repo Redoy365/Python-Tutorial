@@ -5,8 +5,8 @@ git commit -m "
 
 '''
 
-thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+fruits = {"apple", "banana", "cherry"}
 
-x = thistuple.index(8)
+fruits.add("orange")
 
-print(x)
+print(fruits)
