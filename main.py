@@ -1,8 +1,14 @@
-try:
-  x > 3
-except:
-  print("Something went wrong")
-else:
-  print("Nothing went wrong")
-finally:
-  print("The try...except block is finished")
+print(type("Hello"))
+print(type(3))
+print(type(3.14))
+print(type(1j))
+print(type(["apple", "banana", "cherry"]))
+print(type(("apple", "banana", "cherry")))
+print(type(range(6)))
+print(type({"name" : "John", "age" : 36}))
+print(type({"apple", "banana", "cherry"}))
+print(type(frozenset({"apple", "banana", "cherry"})))
+print(type(True))
+print(type(b"Hello"))
+print(type(bytearray(5)))
+print(type(memoryview(bytes(5))))
