@@ -4,6 +4,6 @@ car = {
   "year": 1964
 }
 
-x = car.values()
+car.pop("model")
 
-print(x)
+print(car)
