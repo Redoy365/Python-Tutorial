@@ -1,6 +1,5 @@
-x = {"f", "e", "d", "c", "b", "a"}
-y = {"a", "b", "c"}
+fruits = {"apple", "banana", "cherry"}
 
-z = x.issuperset(y)
+fruits.pop()
 
-print(z)
+print(fruits)
