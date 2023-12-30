@@ -1,5 +1,5 @@
-x = "hello"
+x = ["apple", "banana", "cherry"]
 
-del x
+del x[0]
 
 print(x)
