@@ -5,12 +5,8 @@ git commit -m "
 
 '''
 
-car = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
 
-car.update({"color": "White"})
+x = thistuple.count(5)
 
-print(car)
+print(x)
