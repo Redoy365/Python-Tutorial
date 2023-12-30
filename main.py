@@ -1,3 +1,3 @@
-x = (5 > 3 and 5 < 10)
+import calendar as c
 
-print(x)
+print(c.month_name[1])
