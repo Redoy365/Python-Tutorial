@@ -1,6 +1,5 @@
-x = {"apple", "banana", "cherry"}
-y = {"google", "microsoft", "apple"}
+fruits = {"apple", "banana", "cherry"}
 
-x.difference_update(y)
+fruits.discard("banana")
 
-print(x)
+print(fruits)
