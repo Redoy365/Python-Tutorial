@@ -4,6 +4,6 @@ car = {
   "year": 1964
 }
 
-x = car.popitem()
+x = car.setdefault("color", "white")
 
 print(x)
