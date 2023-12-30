@@ -1,3 +1,2 @@
-f = open("file1.txt", "r")
+f = open("main.py", "r")
 print(f.read())
-f.close()
