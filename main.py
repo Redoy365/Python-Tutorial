@@ -1,3 +1,5 @@
-x = hex(255)
+def func(n):
+    for i in range(0,n):
+        print(hex(i))
 
-print(x)
+func(255)
