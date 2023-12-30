@@ -5,5 +5,8 @@ class myObj(myAge):
   name = "John"
   age = myAge
 
-x = issubclass(myObj, myAge)
+x = myObj().age.age
+y = myObj().name
+
 print(x)
+print(y)
