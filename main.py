@@ -1,6 +1,14 @@
-def myfunc(a, b):
-  return a + b
+numbers = [2, 4, 6, 8, 10]
 
-x = map(myfunc, ('apple', 'banana', 'cherry'), ('orange', 'lemon', 'pineapple'))
+# returns the square of a number
+def square(number):
+  return number * number
 
-print(list(x))
+# apply square() to each item of the numbers list
+squared_numbers_iterator = map(square, numbers)
+
+# converting to list
+squared_numbers = list(squared_numbers_iterator)
+print(squared_numbers)
+
+# Output: [4, 16, 36, 64, 100]
