@@ -1,11 +1,3 @@
-x = round(5.76543, 2)
-y = round(5.76543, 3)
-z = round(5.76543, 4)
-man = round(3.44159623456456)
-max = round(3.55159623456456)
+x = set(('apple', 'banana', 'cherry'))
 
 print(x)
-print(y)
-print(z)
-print(man)
-print(max)
