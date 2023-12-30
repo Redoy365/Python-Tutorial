@@ -1,4 +1,6 @@
-for i in range(9):
-  if i > 3:
-    break
-  print(i)
+class MyClass:
+  name = "John"
+
+del MyClass
+
+print(MyClass)
