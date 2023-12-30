@@ -4,6 +4,6 @@ car = {
   "year": 1964
 }
 
-x = car.get("price", 15000)
+x = car.items()
 
 print(x)
