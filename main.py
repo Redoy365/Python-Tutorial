@@ -1,5 +1,6 @@
-fruits = {"apple", "banana", "cherry"}
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
 
-fruits.remove("banana")
+z = x.symmetric_difference(y)
 
-print(fruits)
+print(z)
