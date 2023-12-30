@@ -1,8 +1,6 @@
-a = [3,2,1,4,5]
+a = ("John", "Charles", "Mike")
+b = ("Jenny", "Christy", "Monica")
 
-a.sort()
+x = zip(a, b)
 
-x = sorted(a)
-
-print(a)
-print(x)
+print(list(x))
