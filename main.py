@@ -1,6 +1,6 @@
-x = {"a", "b", "c"}
-y = {"f", "e", "d", "c", "b", "a"}
+x = {"f", "e", "d", "c", "b", "a"}
+y = {"a", "b", "c"}
 
-z = x.issubset(y)
+z = x.issuperset(y)
 
 print(z)
