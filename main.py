@@ -1,9 +1,16 @@
+'''
+
+git add .
+git commit -m "
+
+'''
+
 car = {
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964
 }
 
-x = car.setdefault("color", "white")
+car.update({"color": "White"})
 
-print(x)
+print(car)
