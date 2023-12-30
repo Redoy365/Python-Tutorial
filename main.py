@@ -1,5 +1,2 @@
-x = "hello"
-
-m = reversed(x)
-
-print(list(m))
+x = round(5.76543, 2)
+print(x)
