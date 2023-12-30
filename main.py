@@ -3,6 +3,7 @@ class Person:
   age = 36
   country = "Norway"
 
-x = hasattr(Person, 'age')
+setattr(Person, 'age', 40)
 
+x = getattr(Person, "age")
 print(x)
