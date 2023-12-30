@@ -1,3 +1,8 @@
-a = ("h", "b", "a", "c", "f", "d", "e", "g")
-x = sorted(a, reverse=True)
+a = [3,2,1,4,5]
+
+a.sort()
+
+x = sorted(a)
+
+print(a)
 print(x)
