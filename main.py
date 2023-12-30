@@ -4,6 +4,6 @@ car = {
   "year": 1964
 }
 
-x = car.copy()
+x = car.get("model")
 
 print(x)
