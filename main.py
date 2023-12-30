@@ -1,5 +1,6 @@
-fruits = {"apple", "banana", "cherry"}
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
 
-x = fruits.copy()
+z = x.difference(y)
 
-print(x)
+print(z)
