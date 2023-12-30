@@ -1,6 +1,5 @@
-class MyClass:
-  name = "John"
+x = "hello"
 
-del MyClass
+del x
 
-print(MyClass)
+print(x)
