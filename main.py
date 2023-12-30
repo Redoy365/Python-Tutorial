@@ -1,6 +1,6 @@
 x = {"apple", "banana", "cherry"}
-y = {"google", "microsoft", "apple"}
+y = {"google", "microsoft", "facebook"}
 
-x.intersection_update(y)
+z = x.isdisjoint(y)
 
-print(x)
+print(z)
