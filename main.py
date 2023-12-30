@@ -4,6 +4,6 @@ car = {
   "year": 1964
 }
 
-x = car.keys()
+x = car.values()
 
 print(x)
