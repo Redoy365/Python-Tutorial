@@ -1,2 +1,3 @@
 f = open("file1.txt", "r")
-print(f.readlines())
+f.seek(4)
+print(f.readline())
