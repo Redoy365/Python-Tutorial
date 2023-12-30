@@ -1,3 +1,3 @@
-a = ("a", "b", "c", "d", "e", "f", "g", "h")
-x = slice(0, 8, 3)
-print(a[x])
+a = ("b", "g", "a", "d", "f", "c", "h", "e")
+x = sorted(a)
+print(x)
