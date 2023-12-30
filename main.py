@@ -1,11 +1,5 @@
-x = [1,2,3,4,5]
-alph = ["a", "b", "c", "d"]
+x = "hello"
 
-ralph = reversed(alph)
-y = reversed(x)
+m = reversed(x)
 
-print(list(ralph))
-print(list(y))
-x.reverse()
-
-print(x)
+print(list(m))
