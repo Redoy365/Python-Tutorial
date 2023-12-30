@@ -1,2 +1,3 @@
-f = open("file1.txt", "a")
-print(f.writable())
+x = (5 > 3 and 5 < 10)
+
+print(x)
