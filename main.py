@@ -4,6 +4,6 @@ car = {
   "year": 1964
 }
 
-car.clear()
+x = car.copy()
 
-print(car)
+print(x)
