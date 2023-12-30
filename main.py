@@ -1,5 +1,6 @@
-fruits = {"apple", "banana", "cherry"}
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
 
-fruits.discard("banana")
+z = x.intersection(y)
 
-print(fruits)
+print(z)
