@@ -1,12 +1,8 @@
-ages = [5, 12, 17, 18, 24, 32]
+class Person:
+  name = "John"
+  age = 36
+  country = "Norway"
 
-def myFunc(x):
-  if x < 18:
-    return False
-  else:
-    return True
+x = hasattr(Person, 'age')
 
-adults = filter(myFunc, ages)
-
-for x in adults:
-  print(x)
+print(x)
