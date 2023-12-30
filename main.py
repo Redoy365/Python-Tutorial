@@ -1,6 +1,3 @@
-x = {"apple", "banana", "cherry"}
-y = {"google", "microsoft", "apple"}
-
-x.update(y)
-
-print(x)
+f = open("file1.txt", "r")
+print(f.read())
+f.close()
