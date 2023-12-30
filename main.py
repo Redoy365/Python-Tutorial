@@ -1,3 +1,3 @@
-myset = {"apple", "banana", "cherry"}
-
-print(type(myset))
+a = ("a", "b", "c", "d", "e", "f", "g", "h")
+x = slice(2)
+print(a[x])
