@@ -1,5 +1,5 @@
 fruits = {"apple", "banana", "cherry"}
 
-fruits.clear()
+x = fruits.copy()
 
-print(fruits)
+print(x)
