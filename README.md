@@ -35,4 +35,4 @@
 
   <h3 align="center">Python - Operators</h2>
 
-<img src= "https://www.aipython.in/wp-content/uploads/2020/04/Python-operators-1024x576.jpg">
+<img src= "https://hackernoon.com/images/B6I7WEwrKubf11jAWFL33iiMzR13-972831vv.jpeg">
