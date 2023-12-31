@@ -1,4 +1,6 @@
-x = y = z = "Orange"
+x = "Python is awesome"
 print(x)
-print(y)
-print(z)
+
+
+x = "awesome"
+print("Python is " + x)
