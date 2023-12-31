@@ -1,6 +1,9 @@
-"""
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
+# creating variable
+
+x = 5
+y = "John"
+z = True
+
+print(x)
+print(y)
+print(z)
