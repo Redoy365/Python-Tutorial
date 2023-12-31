@@ -1,6 +1,10 @@
-# Python Indentation
-# if 5 > 2:
-#   print("Five is greater than two!")
+print("Hello, World!") #This is a comment
 
-# if 5 > 2:
-# print("Five is greater than two!")
+"""
+Comments can be used to explain Python code.
+
+Comments can be used to make the code more readable.
+
+Comments can be used to prevent execution when testing code.
+
+"""
