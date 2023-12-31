@@ -1,3 +1,6 @@
-import random
+# Python Indentation
+# if 5 > 2:
+#   print("Five is greater than two!")
 
-print(random.randrange(1,10))
+# if 5 > 2:
+# print("Five is greater than two!")
