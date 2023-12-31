@@ -1,4 +1,9 @@
-x = "Python is "
-y = "awesome"
-z =  x + y
-print(z)
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
