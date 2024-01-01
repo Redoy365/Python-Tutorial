@@ -1,14 +1,11 @@
-import json
+import re
 
-# a Python object (dict):
-x = {
-  "name": "John",
-  "age": 30,
-  "city": "New York"
-}
+txt = "The rain in Spain "
+x = re.search("ai", txt)
 
-# convert into JSON:
-y = json.dumps(x)
-
-# the result is a JSON string:
-print(y)
+print(x.span()) #this will print an object
+print(x.start()) #this will print an object
+print(x.end()) #this will print an object
+print(x.group()) #this will print an object
+print(x.re) #this will print an object
+print(x.endpos) #this will print an object
