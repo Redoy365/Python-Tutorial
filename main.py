@@ -1,3 +1,5 @@
-x = ["apple", "banana"]
+# Python Bitwise Operators
 
-print("cherry" not in x)
+x = 5
+
+print(x>3 | x<10)
