@@ -1,8 +1,5 @@
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = []
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
 
-for x in fruits:
-  if "a" in x:
-    newlist.append(x)
-
-print(newlist)
+tuple3 = tuple1 + tuple2
+print(tuple3)
