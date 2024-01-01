@@ -35,4 +35,4 @@
 
   <h3 align="center">Python - Operators</h2>
 
-<img src= "https://hackernoon.com/images/B6I7WEwrKubf11jAWFL33iiMzR13-972831vv.jpeg">
+<img src= "https://i.ytimg.com/vi/7dvqfpXEjdg/maxresdefault.jpg">
