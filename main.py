@@ -1,5 +1,11 @@
-tuple1 = ("a", "b" , "c")
-tuple2 = (1, 2, 3)
+thisset = {"apple", "banana", "cherry"}
 
-tuple3 = tuple1 + tuple2
-print(tuple3)
+thisset.add("orange")
+
+print(thisset)
+
+thisset = {"apple", "banana", "cherry"}
+
+thisset.update(["orange", "mango", "grapes"])
+
+print(thisset)
