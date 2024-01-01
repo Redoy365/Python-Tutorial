@@ -1,3 +1,3 @@
 x = ["apple", "banana"]
 
-print("banana" in x)
+print("cherry" not in x)
