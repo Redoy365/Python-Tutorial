@@ -1,10 +1,10 @@
 def func():
-    x = [1,2,3,4,5]
-    y = {1,2,3,4,5}
-    z = (1,2,3,4,5)
+    x = {
+        "name":"Redoy",
+        "Roll":101,
+        "GPA":"5.00"
+    }
 
     print(len(x))
-    print(len(y))
-    print(len(z))
 
 func()
