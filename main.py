@@ -1,14 +1,6 @@
-# ' mymodule '
-def greeting(name):
-  print("Hello, " + name)
+import datetime
 
-person1 = {
-  "name": "John",
-  "age": 36,
-  "country": "Norway"
-}
+x = datetime.datetime.now()
 
-print(type(person1))
-
-# from mymodule import person1
-
+print(x.year)
+print(x.strftime("%A"))
