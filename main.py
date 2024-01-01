@@ -1,15 +1,17 @@
-class Math:
-  def __init__(self):
-    pass
+import platform as pf
 
-  def sum(self,*arg):
-    return arg[0]+arg[1]
-  def sub(self,*arg):
-    return arg[0]-arg[1]
+architecture = pf.architecture()
+platform = pf.platform()
+machine = pf.machine()
+processor = pf.processor()
+version = pf.version()
+system = pf.system()
+node = pf.node()
 
-Math = Math()
-
-n = Math.sum(10,2)
-print(n)
-n = Math.sub(10,2)
-print(n)
+print(architecture)
+print(machine)
+print(processor)
+print(platform)
+print(version)
+print(system)
+print(node)
