@@ -1,7 +1,6 @@
-# comparison operators
-print(5 == 5)
-print(5 != 3)
-print(5 > 3)
-print(1 < 3)
-print(5 >= 2)
-print(5 <= 12)
+# Logical Operators
+
+def func(x):
+  print(x > 3 and x < 10)
+
+func(5)
