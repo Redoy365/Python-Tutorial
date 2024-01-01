@@ -1,14 +1,8 @@
-myfamily = {
-  "child1" : {
-    "name" : "Emil",
-    "year" : 2004
-  },
-  "child2" : {
-    "name" : "Tobias",
-    "year" : 2007
-  },
-  "child3" : {
-    "name" : "Linus",
-    "year" : 2011
-  }
-}
+x = 41
+
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
